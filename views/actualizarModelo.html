@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BD CALZADO</title>
+    <LINK href="index.css" rel="stylesheet" type="text/css">
+    <script src="index.js"></script>
+  </head>
+
+  <body><h1>
+    <form onsubmit="return envioActualizarModelo()" id="mi_form" method="POST">
+    INTRODUCE EL MODELO Y EL CAMPO/S DEL ARTÍCULO QUE QUIERES MODIFICAR.<p> 
+                <input type="text" placeholder="MODELO_ARTÍCULO" id="modelo_actual"/><p>
+		<input type="text" placeholder="ID_NUEVO" id="id" name="id"/>
+		<input type="text" placeholder="MODELO_NUEVO" id="modelo" name="modelo"/>
+	        <input type="text" placeholder="TIPO_NUEVO" id="tipo" name="tipo"/>
+		<input type="text" placeholder="MARCA_NUEVA" id="marca" name="marca"/>
+		<input type="text" placeholder="COLOR_NEVO" id="color" name="color"/><p>
+		<input type="text" placeholder="TEJIDO_NUEVO"id="tejido" name="tejido"/>
+		<input type="text" placeholder="PAIS_NUEVO" id="pais" name="pais"/>
+		<input type="text" placeholder="FECHA_NUEVA" id="fecha" name="fecha"/>
+		<input type="text" placeholder="TALLA_NUEVA" id="talla" name="talla"/>
+		<input type="text" placeholder="CANTIDAD_NUEVA" id="cantidad" name="cantidad"/><p>
+	     
+     	      <input class="boton" type="submit" value="ACTUALIZAR"/></h1>
+    </form>
+  </body>
+</html>
